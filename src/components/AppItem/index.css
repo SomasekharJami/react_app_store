@@ -1,0 +1,45 @@
+.appItem {
+  width: 20vw;
+  height: 40vh;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.appImg {
+  width: 8vw;
+}
+.appP {
+  font-size: 2vw;
+  color: #7b8794;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .appItem {
+    width: 30vw;
+    height: 20vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .appImg {
+    width: 10vh;
+  }
+  .appP {
+    font-size: 2vh;
+    color: #7b8794;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}

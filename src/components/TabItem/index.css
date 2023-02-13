@@ -1,0 +1,42 @@
+.tabItem {
+  list-style: none;
+}
+.bton {
+  border: none;
+  font-size: 1.5vw;
+  color: #7b8794;
+  margin: 10px;
+  font-weight: 550;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  outline: none;
+  background-color: transparent;
+}
+.activeTab {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  font-weight: 550;
+}
+
+@media screen and (max-width: 767px) {
+  .tabItem {
+    list-style: none;
+  }
+  .bton {
+    border: none;
+    font-size: 2vh;
+    color: #7b8794;
+    font-weight: 550;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 1.5vw;
+    padding-bottom: 1vh;
+  }
+  .activeTab {
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+    font-weight: 550;
+  }
+}
